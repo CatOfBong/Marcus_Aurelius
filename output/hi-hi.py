@@ -7,8 +7,8 @@ from scipy.interpolate import griddata
 
 # Настройка путей
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Директория скрипта
-DATA_PATH = os.path.join(BASE_DIR, 'results.csv')     # Путь к данным
-OUTPUT_DIR = os.path.join(BASE_DIR, 'output')         # Папка для графиков
+DATA_PATH = os.path.join(BASE_DIR, '126.csv')     # Путь к данным
+OUTPUT_DIR = os.path.join(BASE_DIR, 'output_126')         # Папка для графиков
 
 # Создаем папку для результатов, если её нет
 os.makedirs(OUTPUT_DIR, exist_ok=True)
