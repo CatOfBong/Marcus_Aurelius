@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     const double Isp = 126.82;       // Метеор говорит 126.82, но этот параметр настолько хаотично зависит от парамтров дивгателя, что я даже хз чё тут выбрать. 151.3 - это взято отсюда: https://www.nakka-rocketry.net/techsht-knsb.htm
-    const int D = 4000;
+    const int D = 3400;
     const double g = 9.81;
     const double Phi_0 = 0.98;
     const double Ro_v = 1.2255;
@@ -58,6 +58,7 @@ int main() {
             cout << m << "," << I << "," << V_ub << endl;
         }
     }
+    cout<<endl<<endl<<C<<endl<<C*Q_TNT<<endl<<V_0;
 
     return 0;
 }
